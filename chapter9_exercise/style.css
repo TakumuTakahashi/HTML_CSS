@@ -53,3 +53,20 @@ main {
 .title{
   margin: 15px 0 5px;
 }
+
+@media screen and (max-width:768px) {
+  .step-box {
+    float: none;
+  }
+  main {
+    width: 100%;
+  }
+  .step-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .step-box:last-child {
+    margin: 0 auto;
+  }
+}
